@@ -13,4 +13,4 @@ jobs:
 
     steps:
     - name: test action
-      uses: pyrmont/action-janet-test
+      uses: pyrmont/action-janet-test@master
