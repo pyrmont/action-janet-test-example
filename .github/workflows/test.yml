@@ -7,10 +7,10 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
     steps:
-    - name: test action
+    - name: Test action
       uses: pyrmont/action-janet-test@master
